@@ -1,0 +1,83 @@
+/* some colors used*/
+:root{
+  --light_blue_color: #5Ab9ea;
+  --light_cyan_color: #84ceeb;
+  --darker_color: #5680e9;
+  --more_darker_color: #0E2784;/*#0E2784 || #17329C*/
+  --gray_color: #c1c8e4;
+  --purple_color: #8860d0;
+
+  --navigation_background_color: #5ab9ea;
+  --body_background_color: #c1c8e4;
+}
+
+.header-people{
+  margin-bottom: 2%;
+  background-color: var(--darker_color);
+}
+
+.main-page-people{
+  margin-left: 5%;
+  margin-right:5% ;
+  background-color: var(--light_cyan_color);
+}
+
+.btn-ppl{
+  padding: 5px;
+}
+
+.people-table{
+  width: 100%;
+  height: auto;
+  text-align: left;
+  align-content: center;
+}
+
+.crew-vehicle{
+  margin: 10px 0;
+  padding: 8px;
+  border-bottom: 1px solid var(--darker_color);
+}
+
+.crew-vehicle select{
+  margin-right: 10px;
+}
+
+.crew-error{
+  margin-left: 5%;
+  color: darkred;
+  font-weight: bold;
+}
+
+.conv-toolbar{
+  margin-bottom: 10px;
+}
+
+.conv-form{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--gray_color);
+}
+
+.conv-form label{
+  display: block;
+  margin-bottom: 8px;
+}
+
+.conv-form input[type="text"],
+.conv-form input[type="number"],
+.conv-form input[type="time"],
+.conv-form select{
+  margin-left: 6px;
+}
+
+.conv-stop-row{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.conv-hint{
+  font-size: 14px;
+  font-style: italic;
+}

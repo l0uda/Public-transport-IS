@@ -1,0 +1,92 @@
+/* some colors used*/
+:root{
+  --light_blue_color: #5Ab9ea;
+  --light_cyan_color: #84ceeb;
+  --darker_color: #5680e9;
+  --more_darker_color: #0E2784;/*#0E2784 || #17329C*/
+  --gray_color: #c1c8e4;
+  --purple_color: #8860d0;
+
+  --navigation_background_color: #5ab9ea;
+  --body_background_color: #c1c8e4;
+}
+
+.admin_frame{
+  width: 100%;
+  height: 20cm;
+  margin: 2%;
+  
+}
+.admin_frame::after{
+  clear:both;
+}
+
+.admin_users_config{
+  /* border: 3px solid yellow; */
+  border-left:3px solid var(--more_darker_color);
+  border-right:3px solid var(--more_darker_color);
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 45%;
+  float:left;
+}
+
+.admin_others_config{
+  border: 3px solid red;
+  float:left;
+}
+
+.admin_users_item {
+  width: 30%;
+  float: left;
+  border-bottom: 1px solid var(--darker_color);
+}
+
+.row{
+  border: 2px solid yellow;
+  column-count: 3;
+}
+
+.admin_users_table{
+  width: 100%;
+  height: auto;
+  text-align: left;
+  align-content: center;
+}
+
+.admin_table_head {
+  background-color: var(--darker_color);
+
+}
+
+.admin-toolbar {
+  margin-bottom: 10px;
+}
+
+.admin-form {
+  padding: 10px;
+  min-width: 260px;
+}
+
+.admin-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="email"],
+.admin-form input[type="password"],
+.admin-form select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-check {
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+}
+
+.admin-check input {
+  width: auto;
+}

@@ -1,0 +1,18 @@
+---
+	poslat request na koupi jizdenky
+	-- koupe / rezervace
+
+okno na aktualni rezervace
+
+---
+view:
+	admin
+	conveyor
+		spoje, zastavky (crud, concept only)
+	personel (personal dopravce)
+	passenger -- reservace (today+ ?)
+
+---
+zastavky ktere nejsou confirmed nemuzou byt videny/pouzivany VUBEC
+
+
